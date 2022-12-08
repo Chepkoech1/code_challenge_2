@@ -21,9 +21,9 @@
 
     `cd code_challenge_2`
 
-   -Open in visual studio code.
+   -Run this command to open in visual studio code:
 
-     code .
+     `code .`
 
 ## Running the application
 Use the following steps to run the app.
