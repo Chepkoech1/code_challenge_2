@@ -27,14 +27,15 @@
 
 ## Running the application
 Use the following steps to run the app.
- -If you have'nt install json-server, run this command `npm install -g json-server`
+ -If you haven't installed `json-server`, run this command `npm install -g json-server`
 
- -Run this command in db folder: json-server --watch db.json 
+ -Run this command in db folder: `json-server --watch db.json` 
 
  -In the folder 'front-end-files' go to index.html file and open in live server.
 
 ## Authors
   -Sandra
+  
 
 ## License
   - MIT LICENSE
