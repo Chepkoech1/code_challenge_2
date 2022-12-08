@@ -15,15 +15,15 @@
 ## Getting Started
    -Open command line terminal on your computer. Clone the repository by using the following:
 
-     `git clone https://github.com/Chepkoech1/code_challenge_2`
+     git clone https://github.com/Chepkoech1/code_challenge_2
 
    -Change directory to the repository folder:
 
-    `cd code_challenge_2`
+    cd code_challenge_2
 
    -Run this command to open in visual studio code:
 
-     `code .`
+     code .
 
 ## Running the application
 Use the following steps to run the app.
