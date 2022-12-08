@@ -7,10 +7,13 @@
   -After launching the website in your web browser you will see the animal's names being displayed. 
   -To view the animal's details, click on the animal's name.
   -You can vote for each animal by clicking the `add vote` button.
-## Built with:
-   -Html
-   -Javascript
-   -CSS
+## Built with
+
+   - Html
+
+   - Javascript
+
+   - CSS
 
 ## Getting Started
    -Open command line terminal on your computer. Clone the repository by using the following:
