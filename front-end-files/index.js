@@ -3,7 +3,7 @@ setPage();
 function setPage() {
     getAnimalsNames();
 }
-
+// function to display animal's details when an animal name is clicked
 function toggleAnimalDescription() {
     let description = document.querySelectorAll('.description');
     let title = document.querySelectorAll('.title');
@@ -23,7 +23,7 @@ function toggleAnimalDescription() {
         })
     })
 }
-
+//Function that adds vote for every animal
 function submitVoteBtn() {
     const btn = document.querySelectorAll('button');
     const votesCount = document.querySelectorAll('.description p span');
@@ -40,7 +40,7 @@ function submitVoteBtn() {
         })
     })
 }
-
+//Function that sends the vote to the database
 function addVote(id, number) {
     fetch(`http://localhost:3000/characters/${id}`, {
         method: 'PATCH',
@@ -59,7 +59,7 @@ function addVote(id, number) {
         })
         .catch(err => console.log(err.message));
 }
-
+//Function that gets data from the database and dispays it on the webpage
 async function getAnimalsNames() {
     const animalsNames = document.querySelector('.animalsNames');
     let output = '';
